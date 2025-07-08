@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 50px 100px;
+}
+
+/* shared style  */
+.primary-text-color {
+    color: white;
+}
+.cate-text-color{
+    color: #FF0000;
+}
+
+/* banner style  */
+header {
+    background-image: url(images/Banner\ Image.png);
+    background-size: cover cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+
+.bg-shadow {
+    height: 600px;
+    width: 1270px;
+    background-image: linear-gradient(black,rgba(0, 0, 0, 0));
+    position: absolute;
+    z-index: 11;
+    border-radius: 20px;
+}
+
+.banner {
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    z-index: 11;
+    
+}
+
+.banner-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+    font-weight: 300;
+}
+
+.sub-title {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+/* main style  */
+
+.all-categories{
+    height: 800px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+}
+.primary-offer{
+    font-size: 60px;
+}
+.off-des{
+    font-size: 20px;
+}
+.off-heading{
+    font-size: 30px;
+}
+.image img{
+    height: 400px;
+    width: 500px;
+}
