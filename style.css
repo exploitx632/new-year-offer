@@ -203,3 +203,49 @@ border-radius: 20px;
     height: 100px;
     width: 100px;
 }
+.holidays{
+    height: 900px;
+    width: 1270px;
+}
+.holidays-content{
+    text-align: center;
+    padding: 0 200px;
+
+}
+.holidays-content h3, h1 , p{
+    margin-bottom: 15px;
+}
+.holidays-content h1{
+    font-size: 56px;
+}
+.holidays-content h1 span{
+    color: #FF0000;
+}
+.holidays-content h3{
+    font-size: 24px;
+}
+
+.holidays-img{
+    height: 480px;
+}
+.holidays-img .img1{
+height: 450px;
+width: 550px;
+position: relative;
+/* bottom: -200px; */
+/* left: 100px; */
+
+z-index: 11
+}
+.img2{
+    margin:0 0 200px 400px;
+    height: 200px;
+    width: 200px;
+
+}
+.img3{
+    width: 1270px;
+    position: relative;
+    top: -200px;
+}
+
