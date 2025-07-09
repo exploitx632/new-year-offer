@@ -36,7 +36,7 @@ header {
     width: 1270px;
     background-image: linear-gradient(black,rgba(0, 0, 0, 0));
     position: absolute;
-    z-index: 11;
+    z-index: 10;
     border-radius: 20px;
 }
 
@@ -59,6 +59,7 @@ header {
 .sub-title {
     font-size: 55px;
     font-weight: 800;
+    color: white;
 }
 
 /* main style  */
@@ -85,4 +86,120 @@ header {
 .image img{
     height: 400px;
     width: 500px;
+}
+
+/* welcome section style  */
+
+
+.welcome{
+    background-image: url(images/Vectorrr.png);
+background-size: cover cover;
+background-position: center center;
+background-repeat: no-repeat;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+border-radius: 20px;
+}
+.wl-shadow {
+    height: 600px;
+    width: 1270px;
+    background-image: linear-gradient(to right ,black,rgba(0, 0, 0, 0));
+    position: absolute;
+    z-index: 11;
+    border-radius: 20px;
+}
+.wl-content{
+    height: 300px;
+    width: 550px;
+    text-align: center;
+    position: relative;
+    z-index: 11;
+    margin: 160px 100px;
+    text-align: start;
+}
+.wl-description{
+    color: white;
+}
+
+.wl-content h1,p,a{
+    margin-bottom: 30px;
+}
+
+.wl-content a{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.address{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom , #ff000023,#fffffff8);
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.address-place{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.address-place span{
+    color:#FF0000;
+}
+.btn-join{
+    height: 40px;
+    width: 120px;
+    background-color: #FF0000;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.best-offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    height: 400px;
+    margin-top: 100px;
+    padding: 0 80px;
+}
+.offer-coming{
+    width: 300px;
+}
+.offer-coming h3{
+    color: #FF0000;
+    font-weight: 300;
+}
+.offer-coming h2{
+    font-size: 40px;
+}
+
+.offer-img{
+    height: 220px;
+    width: 220px;
+    outline: 10px solid #FF0000;
+    outline-offset: 20px;
+    border-radius: 50%;
+}
+
+.offer-time{
+    width: 300px;
+}
+.offer-time h2{
+    color: #FF0000;
+}
+.offer-time img{
+    height: 100px;
+    width: 100px;
 }
