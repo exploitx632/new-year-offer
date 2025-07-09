@@ -249,3 +249,17 @@ z-index: 11
     top: -200px;
 }
 
+.portfolio{
+    width: 1270px;
+    /* background-color: #b86f6f; */
+}
+.portfolio-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.img{
+    height: 410px;
+    width: 410px;
+    border-radius: 20px;
+}
