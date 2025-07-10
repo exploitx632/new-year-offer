@@ -19,7 +19,7 @@ body {
 /* banner style  */
 header {
     margin-top: 50px;
-    background-image: url(images/Banner\ Image.png);
+    background-image: linear-gradient(to bottom,black,rgba(0, 0, 0, 0)),url(images/Banner\ Image.png);
     background-size: cover cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -32,14 +32,7 @@ header {
 
 }
 
-.bg-shadow {
-    height: 600px;
-    width: 1270px;
-    background-image: linear-gradient(black,rgba(0, 0, 0, 0));
-    position: absolute;
-    z-index: 10;
-    border-radius: 20px;
-}
+
 
 .banner {
     height: 300px;
@@ -93,7 +86,7 @@ header {
 
 
 .welcome{
-    background-image: url(images/Vectorrr.png);
+    background-image: linear-gradient(to right ,black,rgba(0, 0, 0, 0)),url(images/Vectorrr.png);
 background-size: cover cover;
 background-position: center center;
 background-repeat: no-repeat;
@@ -104,14 +97,14 @@ align-items: flex-start;
 flex-direction: column;
 border-radius: 20px;
 }
-.wl-shadow {
+/* .wl-shadow {
     height: 600px;
     width: 1270px;
     background-image: linear-gradient(to right ,black,rgba(0, 0, 0, 0));
     position: absolute;
     z-index: 11;
     border-radius: 20px;
-}
+} */
 .wl-content{
     height: 300px;
     width: 550px;
